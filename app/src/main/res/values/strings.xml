@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">CustomKeyboard2</string>
+    <string name="title_test_activity">Test</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="change_system_keyboard">Change system keyboard</string>
+    <string name="keyboard_options">Keyboard options</string>
+    <string name="install_keyboard">Install/Uninstall keyboard</string>
+    <string name="test">Test</string>
+    <string name="change_color">Change color</string>
+    <string name="enter_somehting">Enter something:)</string>
+    <string name="key_icon">Key icon</string>
+    <string name="name_english_ime">English</string>
+    <string name="name_russian_ime">Russian</string>
 </resources>
