@@ -5,6 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.AbstractComposeView
 import androidx.core.graphics.toColorInt
+import com.devrachit.customkeyboard2.ui.theme.screens.keyboard.KeyboardScreen2
 
 class ComposeKeyboardView(context: Context): AbstractComposeView(context) {
     @Composable
@@ -16,10 +17,6 @@ class ComposeKeyboardView(context: Context): AbstractComposeView(context) {
         val backgroundColor = background?.toString()?.toColorInt()?.let { Color(it) } ?: Color.Transparent
         val keyColor = key?.toString()?.toColorInt()?.let { Color(it) } ?: Color.Black
         val textColor = text?.toString()?.toColorInt()?.let { Color(it) } ?: Color.White
-        KeyboardScreen(
-            backgroundColor = backgroundColor,
-            keyColor = keyColor,
-            textColor = textColor
-        )
+        KeyboardScreen2()
     }
 }
